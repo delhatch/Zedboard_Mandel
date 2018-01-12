@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2017.4 (64-bit)
+# SW Build 2086221 on Fri Dec 15 20:55:39 MST 2017
+# IP Build 2085800 on Fri Dec 15 22:25:07 MST 2017
+# Start of session at: Thu Jan 11 18:17:07 2018
+# Process ID: 5200
+# Current directory: C:/Zynq_Book/Zedboard_Mandel/Zedboard_Mandel.runs/engine_pll_synth_1
+# Command line: vivado.exe -log engine_pll.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source engine_pll.tcl
+# Log file: C:/Zynq_Book/Zedboard_Mandel/Zedboard_Mandel.runs/engine_pll_synth_1/engine_pll.vds
+# Journal file: C:/Zynq_Book/Zedboard_Mandel/Zedboard_Mandel.runs/engine_pll_synth_1\vivado.jou
+#-----------------------------------------------------------
+source engine_pll.tcl -notrace

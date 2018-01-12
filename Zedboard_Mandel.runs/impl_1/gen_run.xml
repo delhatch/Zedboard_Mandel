@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GenRun Id="impl_1" LaunchPart="xc7z020clg484-1" LaunchTime="1515723839">
+  <File Type="PWROPT-DCP" Name="Mandel_pwropt.dcp"/>
+  <File Type="ROUTE-PWR" Name="Mandel_power_routed.rpt"/>
+  <File Type="PA-TCL" Name="Mandel.tcl"/>
+  <File Type="ROUTE-PWR-SUM" Name="Mandel_power_summary_routed.pb"/>
+  <File Type="REPORTS-TCL" Name="Mandel_reports.tcl"/>
+  <File Type="BG-DRC" Name="Mandel.drc"/>
+  <File Type="OPT-METHODOLOGY-DRC" Name="Mandel_methodology_drc_opted.rpt"/>
+  <File Type="INIT-TIMING" Name="Mandel_timing_summary_init.rpt"/>
+  <File Type="OPT-HWDEF" Name="Mandel.hwdef"/>
+  <File Type="OPT-DCP" Name="Mandel_opt.dcp"/>
+  <File Type="OPT-DRC" Name="Mandel_drc_opted.rpt"/>
+  <File Type="OPT-TIMING" Name="Mandel_timing_summary_opted.rpt"/>
+  <File Type="PWROPT-DRC" Name="Mandel_drc_pwropted.rpt"/>
+  <File Type="PWROPT-TIMING" Name="Mandel_timing_summary_pwropted.rpt"/>
+  <File Type="PLACE-DCP" Name="Mandel_placed.dcp"/>
+  <File Type="PLACE-IO" Name="Mandel_io_placed.rpt"/>
+  <File Type="PLACE-CLK" Name="Mandel_clock_utilization_placed.rpt"/>
+  <File Type="PLACE-UTIL" Name="Mandel_utilization_placed.rpt"/>
+  <File Type="PLACE-UTIL-PB" Name="Mandel_utilization_placed.pb"/>
+  <File Type="PLACE-CTRL" Name="Mandel_control_sets_placed.rpt"/>
+  <File Type="PLACE-SIMILARITY" Name="Mandel_incremental_reuse_placed.rpt"/>
+  <File Type="PLACE-PRE-SIMILARITY" Name="Mandel_incremental_reuse_pre_placed.rpt"/>
+  <File Type="PLACE-TIMING" Name="Mandel_timing_summary_placed.rpt"/>
+  <File Type="POSTPLACE-PWROPT-DCP" Name="Mandel_postplace_pwropt.dcp"/>
+  <File Type="POSTPLACE-PWROPT-TIMING" Name="Mandel_timing_summary_postplace_pwropted.rpt"/>
+  <File Type="PHYSOPT-DCP" Name="Mandel_physopt.dcp"/>
+  <File Type="PHYSOPT-DRC" Name="Mandel_drc_physopted.rpt"/>
+  <File Type="BG-BIT" Name="Mandel.bit"/>
+  <File Type="PHYSOPT-TIMING" Name="Mandel_timing_summary_physopted.rpt"/>
+  <File Type="ROUTE-ERROR-DCP" Name="Mandel_routed_error.dcp"/>
+  <File Type="ROUTE-DCP" Name="Mandel_routed.dcp"/>
+  <File Type="ROUTE-BLACKBOX-DCP" Name="Mandel_routed_bb.dcp"/>
+  <File Type="ROUTE-DRC" Name="Mandel_drc_routed.rpt"/>
+  <File Type="ROUTE-DRC-PB" Name="Mandel_drc_routed.pb"/>
+  <File Type="BITSTR-MSK" Name="Mandel.msk"/>
+  <File Type="ROUTE-DRC-RPX" Name="Mandel_drc_routed.rpx"/>
+  <File Type="BG-BGN" Name="Mandel.bgn"/>
+  <File Type="ROUTE-METHODOLOGY-DRC" Name="Mandel_methodology_drc_routed.rpt"/>
+  <File Type="BITSTR-RBT" Name="Mandel.rbt"/>
+  <File Type="ROUTE-METHODOLOGY-DRC-RPX" Name="Mandel_methodology_drc_routed.rpx"/>
+  <File Type="BG-BIN" Name="Mandel.bin"/>
+  <File Type="ROUTE-METHODOLOGY-DRC-PB" Name="Mandel_methodology_drc_routed.pb"/>
+  <File Type="ROUTE-PWR-RPX" Name="Mandel_power_routed.rpx"/>
+  <File Type="ROUTE-STATUS" Name="Mandel_route_status.rpt"/>
+  <File Type="ROUTE-STATUS-PB" Name="Mandel_route_status.pb"/>
+  <File Type="ROUTE-TIMINGSUMMARY" Name="Mandel_timing_summary_routed.rpt"/>
+  <File Type="ROUTE-TIMING-PB" Name="Mandel_timing_summary_routed.pb"/>
+  <File Type="ROUTE-TIMING-RPX" Name="Mandel_timing_summary_routed.rpx"/>
+  <File Type="ROUTE-SIMILARITY" Name="Mandel_incremental_reuse_routed.rpt"/>
+  <File Type="RDI-RDI" Name="Mandel.vdi"/>
+  <File Type="ROUTE-CLK" Name="Mandel_clock_utilization_routed.rpt"/>
+  <File Type="POSTROUTE-PHYSOPT-DCP" Name="Mandel_postroute_physopt.dcp"/>
+  <File Type="POSTROUTE-PHYSOPT-BLACKBOX-DCP" Name="Mandel_postroute_physopt_bb.dcp"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING" Name="Mandel_timing_summary_postroute_physopted.rpt"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING-PB" Name="Mandel_timing_summary_postroute_physopted.pb"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING-RPX" Name="Mandel_timing_summary_postroute_physopted.rpx"/>
+  <File Type="BITSTR-NKY" Name="Mandel.nky"/>
+  <File Type="BITSTR-BMM" Name="Mandel_bd.bmm"/>
+  <File Type="BITSTR-MMI" Name="Mandel.mmi"/>
+  <File Type="BITSTR-LTX" Name="debug_nets.ltx"/>
+  <File Type="BITSTR-LTX" Name="Mandel.ltx"/>
+  <File Type="BITSTR-SYSDEF" Name="Mandel.sysdef"/>
+  <File Type="WBT-USG" Name="usage_statistics_webtalk.html"/>
+  <FileSet Name="sources" Type="DesignSrcs" RelSrcDir="$PSRCDIR/sources_1">
+    <Filter Type="Srcs"/>
+    <File Path="$PPRDIR/../Zynq_Mandel/Coor_gen.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../Zynq_Mandel/Engine.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../Zynq_Mandel/Engine2VGA.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../Zynq_Mandel/Mod_counter.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../Zynq_Mandel/VGA.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../Zynq_Mandel/VGA_Controller.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../Zynq_Mandel/Mandel.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="DesignMode" Val="RTL"/>
+      <Option Name="TopModule" Val="Mandel"/>
+      <Option Name="TopAutoSet" Val="TRUE"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="constrs_in" Type="Constrs" RelSrcDir="$PSRCDIR/constrs_1">
+    <Filter Type="Constrs"/>
+    <File Path="$PPRDIR/../Zynq_Mandel/zedboard_constraints.xdc">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="ConstrsType" Val="XDC"/>
+    </Config>
+  </FileSet>
+  <Strategy Version="1" Minor="2">
+    <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2017">
+      <Desc>Default settings for Implementation.</Desc>
+    </StratHandle>
+    <Step Id="init_design"/>
+    <Step Id="opt_design"/>
+    <Step Id="power_opt_design"/>
+    <Step Id="place_design"/>
+    <Step Id="post_place_power_opt_design"/>
+    <Step Id="phys_opt_design"/>
+    <Step Id="route_design"/>
+    <Step Id="post_route_phys_opt_design"/>
+    <Step Id="write_bitstream"/>
+  </Strategy>
+  <BlockFileSet Type="BlockSrcs" Name="engine_pll"/>
+  <BlockFileSet Type="BlockSrcs" Name="my_img_data"/>
+</GenRun>

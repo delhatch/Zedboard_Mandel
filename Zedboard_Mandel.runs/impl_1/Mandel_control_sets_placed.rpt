@@ -1,0 +1,115 @@
+Copyright 1986-2017 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2017.4 (win64) Build 2086221 Fri Dec 15 20:55:39 MST 2017
+| Date         : Thu Jan 11 18:31:27 2018
+| Host         : Del_Alienware running 64-bit Service Pack 1  (build 7601)
+| Command      : report_control_sets -verbose -file Mandel_control_sets_placed.rpt
+| Design       : Mandel
+| Device       : xc7z020
+------------------------------------------------------------------------------------
+
+Control Set Information
+
+Table of Contents
+-----------------
+1. Summary
+2. Flip-Flop Distribution
+3. Detailed Control Set Information
+
+1. Summary
+----------
+
++----------------------------------------------------------+-------+
+|                          Status                          | Count |
++----------------------------------------------------------+-------+
+| Number of unique control sets                            |    49 |
+| Unused register locations in slices containing registers |   104 |
++----------------------------------------------------------+-------+
+
+
+2. Flip-Flop Distribution
+-------------------------
+
++--------------+-----------------------+------------------------+-----------------+--------------+
+| Clock Enable | Synchronous Set/Reset | Asynchronous Set/Reset | Total Registers | Total Slices |
++--------------+-----------------------+------------------------+-----------------+--------------+
+| No           | No                    | No                     |              44 |           30 |
+| No           | No                    | Yes                    |              62 |           47 |
+| No           | Yes                   | No                     |               4 |            1 |
+| Yes          | No                    | No                     |            1246 |          436 |
+| Yes          | No                    | Yes                    |              51 |           15 |
+| Yes          | Yes                   | No                     |             729 |          205 |
++--------------+-----------------------+------------------------+-----------------+--------------+
+
+
+3. Detailed Control Set Information
+-----------------------------------
+
++-------------------+--------------------------------------+------------------------------------+------------------+----------------+
+|    Clock Signal   |             Enable Signal            |          Set/Reset Signal          | Slice Load Count | Bel Load Count |
++-------------------+--------------------------------------+------------------------------------+------------------+----------------+
+| ~u2/inst/clk_out1 | eng[8].e/latch                       |                                    |                2 |              4 |
+| ~u2/inst/clk_out1 |                                      | eng[4].e/calc_req_ack_reg[5]       |                1 |              4 |
+| ~u2/inst/clk_out1 |                                      |                                    |                2 |              5 |
+|  u2/inst/clk_out1 |                                      |                                    |                9 |              9 |
+|  u2/inst/clk_out1 | u3/req_ack[8]_i_2_n_0                | u3/req_ack[8]_i_1_n_0              |                2 |              9 |
+|  u2/inst/clk_out1 | eng[8].e/latch                       | rst_IBUF                           |                3 |              9 |
+|  u2/inst/clk_out1 | u1/y_cntr/E[0]                       | rst_IBUF                           |                3 |             10 |
+|  u2/inst/clk_out2 | vpg/u0/V_Cont                        | rst_IBUF                           |                3 |             11 |
+| ~u2/inst/clk_out2 |                                      |                                    |                5 |             14 |
+|  u2/inst/clk_out1 | eng[7].e/ItrCounter[15]_i_2__6_n_0   | eng[7].e/ItrCounter[15]_i_1__6_n_0 |                6 |             16 |
+|  u2/inst/clk_out1 | eng[1].e/ItrCounter[15]_i_2__0_n_0   | eng[1].e/ItrCounter[15]_i_1__0_n_0 |                5 |             16 |
+|  u2/inst/clk_out1 | eng[8].e/ItrCounter[15]_i_2__7_n_0   | eng[8].e/ItrCounter[15]_i_1__7_n_0 |                5 |             16 |
+|  u2/inst/clk_out2 |                                      |                                    |               14 |             16 |
+|  u2/inst/clk_out1 | eng[3].e/ItrCounter[15]_i_2__2_n_0   | eng[3].e/ItrCounter[15]_i_1__2_n_0 |                5 |             16 |
+|  u2/inst/clk_out1 | eng[0].e/ItrCounter__0               | eng[0].e/ItrCounter[15]_i_1_n_0    |                5 |             16 |
+|  u2/inst/clk_out1 | eng[4].e/ItrCounter[15]_i_2__3_n_0   | eng[4].e/ItrCounter[15]_i_1__3_n_0 |                5 |             16 |
+|  u2/inst/clk_out1 | eng[6].e/ItrCounter[15]_i_2__5_n_0   | eng[6].e/ItrCounter[15]_i_1__5_n_0 |                5 |             16 |
+|  u2/inst/clk_out1 | eng[2].e/ItrCounter[15]_i_2__1_n_0   | eng[2].e/ItrCounter[15]_i_1__1_n_0 |                5 |             16 |
+|  u2/inst/clk_out1 | eng[5].e/ItrCounter[15]_i_2__4_n_0   | eng[5].e/ItrCounter[15]_i_1__4_n_0 |                5 |             16 |
+|  u2/inst/clk_out2 | vpg/u0/E[0]                          | rst_IBUF                           |                6 |             21 |
+|  u2/inst/clk_out2 |                                      | rst_IBUF                           |               14 |             23 |
+|  u2/inst/clk_out1 |                                      | rst_IBUF                           |               33 |             39 |
+|  u2/inst/clk_out1 | eng[1].e/NewIm[31]_i_2__0_n_0        | eng[1].e/NewIm[31]_i_1__0_n_0      |               20 |             64 |
+|  u2/inst/clk_out1 | eng[0].e/temp5                       |                                    |               21 |             64 |
+|  u2/inst/clk_out1 | eng[0].e/NewIm[31]_i_2_n_0           | eng[0].e/NewIm[31]_i_1_n_0         |               18 |             64 |
+|  u2/inst/clk_out1 | eng[2].e/NewIm[31]_i_2__1_n_0        | eng[2].e/NewIm[31]_i_1__1_n_0      |               18 |             64 |
+|  u2/inst/clk_out1 | eng[2].e/temp5[31]_i_1__1_n_0        |                                    |               19 |             64 |
+|  u2/inst/clk_out1 | eng[5].e/temp5[31]_i_1__4_n_0        |                                    |               14 |             64 |
+|  u2/inst/clk_out1 | eng[6].e/NewIm[31]_i_2__5_n_0        | eng[6].e/NewIm[31]_i_1__5_n_0      |               18 |             64 |
+|  u2/inst/clk_out1 | eng[6].e/temp5[31]_i_1__5_n_0        |                                    |               18 |             64 |
+|  u2/inst/clk_out1 | eng[4].e/temp5[31]_i_1__3_n_0        |                                    |               16 |             64 |
+|  u2/inst/clk_out1 | eng[7].e/NewIm[31]_i_2__6_n_0        | eng[7].e/NewIm[31]_i_1__6_n_0      |               16 |             64 |
+|  u2/inst/clk_out1 | eng[4].e/NewIm[31]_i_2__3_n_0        | eng[4].e/NewIm[31]_i_1__3_n_0      |               17 |             64 |
+|  u2/inst/clk_out1 | eng[7].e/temp5[31]_i_1__6_n_0        |                                    |               19 |             64 |
+|  u2/inst/clk_out1 | eng[5].e/NewIm[31]_i_2__4_n_0        | eng[5].e/NewIm[31]_i_1__4_n_0      |               14 |             64 |
+|  u2/inst/clk_out1 | eng[8].e/NewIm[31]_i_2__7_n_0        | eng[8].e/NewIm[31]_i_1__7_n_0      |               18 |             64 |
+|  u2/inst/clk_out1 | eng[8].e/temp5[31]_i_1__7_n_0        |                                    |               16 |             64 |
+|  u2/inst/clk_out1 | eng[3].e/temp5[31]_i_1__2_n_0        |                                    |               17 |             64 |
+|  u2/inst/clk_out1 | eng[1].e/temp5[31]_i_1__0_n_0        |                                    |               19 |             64 |
+|  u2/inst/clk_out1 | eng[3].e/NewIm[31]_i_2__2_n_0        | eng[3].e/NewIm[31]_i_1__2_n_0      |               18 |             64 |
+|  u2/inst/clk_out1 | eng[1].e/latched_word[82]_i_1__7_n_0 |                                    |               38 |             74 |
+|  u2/inst/clk_out1 | eng[0].e/latched_word                |                                    |               24 |             74 |
+|  u2/inst/clk_out1 | eng[2].e/latched_word[82]_i_1__0_n_0 |                                    |               26 |             74 |
+|  u2/inst/clk_out1 | eng[8].e/latched_word[82]_i_1__1_n_0 |                                    |               24 |             74 |
+|  u2/inst/clk_out1 | eng[4].e/latched_word[82]_i_1__2_n_0 |                                    |               33 |             74 |
+|  u2/inst/clk_out1 | eng[6].e/latched_word[82]_i_1_n_0    |                                    |               25 |             74 |
+|  u2/inst/clk_out1 | eng[3].e/latched_word[82]_i_1__5_n_0 |                                    |               30 |             74 |
+|  u2/inst/clk_out1 | eng[5].e/latched_word[82]_i_1__6_n_0 |                                    |               36 |             74 |
+|  u2/inst/clk_out1 | eng[7].e/latched_word[82]_i_1__4_n_0 |                                    |               39 |             74 |
++-------------------+--------------------------------------+------------------------------------+------------------+----------------+
+
+
++--------+-----------------------+
+| Fanout | Number of ControlSets |
++--------+-----------------------+
+| 4      |                     2 |
+| 5      |                     1 |
+| 9      |                     3 |
+| 10     |                     1 |
+| 11     |                     1 |
+| 14     |                     1 |
+| 16+    |                    40 |
++--------+-----------------------+
+
+

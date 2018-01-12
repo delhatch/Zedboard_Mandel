@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2017.4 (64-bit)
+# SW Build 2086221 on Fri Dec 15 20:55:39 MST 2017
+# IP Build 2085800 on Fri Dec 15 22:25:07 MST 2017
+# Start of session at: Thu Jan 11 18:29:23 2018
+# Process ID: 6000
+# Current directory: C:/Zynq_Book/Zedboard_Mandel/Zedboard_Mandel.runs/impl_1
+# Command line: vivado.exe -log Mandel.vdi -applog -product Vivado -messageDb vivado.pb -mode batch -source Mandel.tcl -notrace
+# Log file: C:/Zynq_Book/Zedboard_Mandel/Zedboard_Mandel.runs/impl_1/Mandel.vdi
+# Journal file: C:/Zynq_Book/Zedboard_Mandel/Zedboard_Mandel.runs/impl_1\vivado.jou
+#-----------------------------------------------------------
+source Mandel.tcl -notrace
