@@ -1,5 +1,7 @@
 # Zedboard_Mandel
 
+![screenshot](https:/github.com/delhatch/Zedboard_Mandel/picture.jpg?raw=true "Screenshot")
+
 Author
 
 Del Hatch
