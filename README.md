@@ -1,6 +1,6 @@
 # Zedboard_Mandel
 
-![screenshot](https://github.com/delhatch/Zedboard_Mandel/blob/master/Picture.jpg)
+![screenshot](https://github.com/delhatch/Zedboard_Mandel/blob/master/Picture_small.jpg)
 
 Author
 
