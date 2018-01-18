@@ -6,6 +6,10 @@ Author
 
 Del Hatch
 
+** Summary
+
+This project used pure RTL to instantiate an array of calculating engines, processing points in the Mandelbrot image space. The number of engines is easily changed (a single define statement). The engines write their result directly into the VGA image space, moderated by the Engine2VGA module. Each engine is then assigned a new coordinate pair to calculate.
+
 Theory
 
 The famous Mandelbrot set is a set of points in the complex plane. In essence, what we want to find out is if the iterative function C below will converge to some constant or diverge to infinity.
