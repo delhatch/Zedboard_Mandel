@@ -8,7 +8,7 @@ Del Hatch
 
 ** Summary
 
-This project used pure RTL to instantiate an array of calculating engines, processing points in the Mandelbrot image space. The number of engines is easily changed (a single define statement). The engines write their result directly into the VGA image space, moderated by the Engine2VGA module. Each engine is then assigned a new coordinate pair to calculate.
+This project used pure Verilog RTL to instantiate an array of calculating engines, processing points in the Mandelbrot image space. The number of engines is easily changed (a single define statement). The engines write their result directly into the VGA image space, moderated by the Engine2VGA module. Each engine is then assigned a new coordinate pair to calculate. All VGA circuitry and the frame buffer memory is created within the Xilinx XC7Z020 FPGA PL fabric.
 
 Theory
 
